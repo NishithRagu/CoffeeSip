@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Sip</title>
+
+
+                <!-- ❕Bootstrap links -->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+
+                <!-- ❕ Fontawesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+                <!--❕ sheets -->
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="stylesheet" href="/Responsive.css">
+    <link rel="stylesheet" href="/Motion.css">
+
+                <!-- Script -->
+    <script src="/Script.js" defer></script>
+</head>
+<body>
+                <!-- body -->
+    <div class="root row col-12 m-0 p-0" id = "home">
+
+                <!-- top -->
+        <div class="topbar row col-12 m-0 p-0">
+
+            <div class="logo col-2">
+                <img class = "logoimg" src="/images/New Project 7 [98EE2FB].png" alt="">
+            </div>
+
+            <nav class="nav col-lg-7 col-md-8 col-sm-4 col-6">
+
+                <img class = "navlogo" src="/images/New Project 7 [98EE2FB].png" alt="">
+
+
+                <a href="#"> HOME </a>
+                <a href="#about" id = "about-nav"> ABOUT </a>
+                <a href="#menu">MENU</a>
+                <a href="#contact"> CONTACT </a>
+                <a href="#" id = "log-nav">LOGIN </a>
+                 
+            </nav>
+
+            <div class="responsive-nav col-1">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Main Content -->
+
+        <div class="left col-sm-12 col-md-6 col-lg-6">
+            <h1 class = "txt1">START WITH A</h1>
+                
+        <section>
+            <h1 class="txt2">SIP!</h1>
+        </section>
+
+        <section class="txt3">Coffee isn’t just a drink, it’s a hug in a mug, a moment of peace, and the fuel that turns dreams into plans.It's the fuel behind every bold move you make. Coffee has a unique way of bringing warmth and focus to our daily routine.</section>
+
+        <div class="btnholder">
+            <button class="btn1" id = "btn1" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})"><i class="fa-solid fa-cart-shopping"></i>ORDER NOW</button>
+
+                <button class="btn2" id = "btn2" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">EXPLORE NOW<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        </div>
+
+        <div class="right col-sm-12 col-md-6 col-lg-6">
+            <div class="lgbox" id = "lgbox">
+                <span class = "close" id="close"> &times; </span>
+
+
+                <form action="#" method="get" id = "lgform" autocomplete="off">
+                    <img class = "logoimg2" src="/images/New Project 7 [98EE2FB].png" alt="">
+                    <h1 class="login" id = "login">Login</h1>
+
+                    <h2 class="login-msg" id = "login-msg"><span>Login</span> Successful</h3>
+
+                    
+                    <i class="fa-solid fa-circle-check done-logo" id = "done-logo"></i>
+                    
+                        
+                        <button class = "goback" id = "goback"> Go Back </button>
+
+                    <div class="inpbox" id = "inpbox">
+                        <input class = "user-inpt" id = "username" type="text" placeholder="Username" minlength="3" maxlength="15" required>
+                        <i class="fa-solid fa-user lgicons"></i>
+                    </div>
+
+                    <div class="inpbox" id = "inpbox">
+                        <input class = "mail" id = "mail" type="email" placeholder="Email" required>
+                        <i class="fa-solid fa-envelope lgicons"></i>
+                    </div>
+
+                    <div class="inpbox" id = "inpbox">
+                        <input id = "passkey" type="password" placeholder="Password" minlength="3" maxlength="8"
+                        pattern="^(?=.*[A-Z])(?=.*[@$!%?&]).*$" title="Password must be atleast one special character including atleast one Uppercase.Provide upto 8 character" required>
+                        <i class="fa-solid fa-eye lgicons" id = "eye"></i>
+                    </div>
+
+                    <div class="forget" id = "forget">
+                        <a href="#"> Forget password</a>
+                    </div>
+
+                    <button class = "lgbtn" id = "lgbtn" type = "submit"> LOGIN </button>
+
+
+            </form>
+            </div>
+        </div>
+
+
+        <!-- About page -->
+        <div class="about row col-12 m-0 p-0" id = "about">
+
+            <!-- about header -->
+            <div class="abtheader col-12">
+                <h1 class = "abttxt" id = "abttxt"> About Us! </h1>
+            </div>
+
+            <!-- About left -->
+            <div class="abtleft col-sm-12 col-md-6">
+                <img class = "coffee-cup" id = "coffee-cup" src="/images/316403142_11354807.png" alt="">
+            </div>
+
+            <!--About Right  -->
+            <div class="abtright col-sm-12 col-md-6">
+                <div class="abtcontent" id = "abtcontent">
+                    
+                    <div class="greetwrapper">
+                        <span class = "greets">Welcome to </span><span class = "coffee-sip">COFFEE SIP</span>,
+                    </div>
+                    <section class = "abtpara"> your cozy corner for all things coffee! We believe that coffee is more than just a drink.It's a ritual, a moment of peace, and a connection between people. Whether you're a morning espresso enthusiast or a late-night latte lover, we've brewed this space just for you. Every cup tells a story, and we’re here to make yours a memorable one. Sit back, sip, and enjoy the aroma of something truly special. It all started with a simple idea, make great coffee accessible to everyone.
+                    </section>
+                    
+                    <section class = "greets2">Thanks for being part of our coffee journey!</section>
+
+                    <div class="icons" id = "icons">
+                        <a href="https://www.instagram.com/nishith._.always?igsh=MTZ2cmd4cHliNXZuaA==">
+                            <i class="fa-brands fa-instagram insta"></i>
+                        </a>
+
+                        <a href="https://github.com/NishithRagu" >
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/nishith-ragu-6696a4291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" >
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!--Menu  -->  
+            
+        <div class="menu col-12 m-0 p-0" id = "menu">
+            <div class="menuheader col-12">
+                <h1 class = "daily">Your Daily <span class = "brews">Brews</span></h1>
+            </div>
+
+            <div class="menubody col-12">
+
+                <div class="cards-wrapper">
+
+                <!-- Cards -->    
+
+                <div class="price-card">
+                    <div class="price-img col-2">
+                        <img class = "coffee1" src="/images/1000182232-Photoroom.png" alt="">
+                    </div>
+
+                    <h5 class = "name"> Latte </h5>
+                    <p class = "aboutcoffee"> A milk coffee that boasts a silky layer of foam as a real highlight of the drink</p>
+                    <h3 class = "coffee-price">&#8377 220</h3>
+                    <button class = "coffee-btn">Shop Now</button>
+                </div>
+
+
+                <div class="price-card">
+                    <div class="price-img col-2">
+                        <img class = "coffee1" src="/images/delicious-coffee-cup-indoors.png" alt="">
+                    </div>
+
+                    <h5 class = "name"> Caramel Macchiato </h5>
+                    <p class = "aboutcoffee"> Combination of coffee, milk, ice, and flavourings of caramal</p>
+                    <h3 class = "coffee-price">&#8377 375</h3>
+                    <button class = "coffee-btn">Shop Now</button>
+                </div>
+
+
+                <div class="price-card">
+                    <div class="price-img col-2">
+                        <img class = "coffee1" src="/images/delicious-hot-chocolate-cappuccino-white-cup-transparent-background.png" alt="">
+                    </div>
+
+                    <h5 class = "name"> Choco Cappuccino </h5>
+                    <p class = "aboutcoffee"> A coffee drink made with espresso, streamed milk, foam, topped with chocolate powder</p>
+                    <h3 class = "coffee-price">&#8377 250</h3>
+                    <button class = "coffee-btn">Shop Now</button>
+                </div>
+
+
+                
+
+                <div class="price-card">
+                    <div class="price-img col-2">
+                        <img class = "coffee1" src="/images/delicious-coffee-drink-chocolate-drizzle-coffee-beans.png" alt="">
+                    </div>
+
+                    <h5 class = "name"> Nescafe Mocha </h5>
+                    <p class = "aboutcoffee"> A coffee drink that combines the flavour of espresso, steamed milk, and chocalate</p>
+                    <h3 class = "coffee-price">&#8377 150</h3>
+                    <button class = "coffee-btn">Shop Now</button>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-img col-2">
+                        <img class = "coffee1" src="/images/dark-coffee-cup-saucer-rich-aroma-morning-brew-relaxing-warmth.png" alt="">
+                    </div>
+    
+                    <h5 class = "name"> Dark coffee </h5>
+                    <p class = "aboutcoffee"> A coffee drink that made by brewing ground coffee beans with water. Flavoured</p>
+                    <h3 class = "coffee-price">&#8377 100</h3>
+                    <button class = "coffee-btn">Shop Now</button>
+                </div>
+
+                    
+                </div>
+        
+            </div>
+        </div>
+
+        <!--Contact   -->  
+            
+        <div class="contact col-12 row m-0 p-0" id = "contact">
+            <div class="contact-img col-md-5 col-lg-5 d-none d-md-block">
+                <img class = "contact-person" src="/images/portrait-happy-smiling-cheerful-beautiful-young-customer-support-phone-operator-headset-isolated-white-wall.png" alt="">
+            </div>
+
+            <div class="contact-info col-lg-5 col-sm-12 col-md-7">
+                <form class="contact-form" action = "mailto:nishitragu@gmail.com" enctype="text/plain" method="post">
+                    <h1 class = "contactus">Get In Touch</h1>
+                    <h3 class="contactus2"> With </h3>
+                    <h2 class = "contactus3">Coffee Sip</h2>
+
+                    <div class="contact-inp-box">
+                        <div class="ct-inp-box" id = "inp1">
+                            <input class = "contact-inp" type="text" placeholder="First Name" required>
+                            <i class="fa-solid fa-user ct-icon"></i>
+                        </div>
+
+                        <div class="ct-inp-box" id = "inp2">
+                            <input class = "contact-inp" type="text" placeholder="Last Name" required>
+                            <i class="fa-solid fa-user ct-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="contact-inp-box">
+
+                        <div class="ct-inp-box" id = "inp1">
+                            <input class = "contact-inp" type="email" placeholder="Email" required>
+                            <i class="fa-solid fa-envelope ct-icon"></i>
+                        </div>
+
+                        <div class="ct-inp-box" id = "inp2">
+                            <input class = "contact-inp" type="tel" placeholder="Phone Number" required>
+                            <i class="fa-solid fa-phone ct-icon"></i>
+                        </div>
+
+                    </div>
+
+                    <textarea name="textarea" id="textarea" class = "textarea" placeholder="Leave Your Message"></textarea>
+
+                    <button class = "contact-btn" type="submit"> Submit </button>
+
+                    <div class="ct-lg-icons">
+                        <a href = "#"><i class="fa-brands fa-google ct-lg-media"></i></a>
+                        <a href = "#"><i class="fa-brands fa-facebook-f ct-lg-media"></i></a>
+                        <a href = "#"><i class="fa-brands fa-x-twitter ct-lg-media"></i></a>
+                        <a href = "#"><i class="fa-brands fa-instagram ct-lg-media"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- footer -->
+
+        <div class="footer col-12 row m-0 p-0">
+
+            <div class="ftr-header col-md-5 col-lg-5  d-none d-md-block m-0 p-0">
+
+                <div class="ftr-imgbox col-12 m-0 p-0">
+                     <img src="/images/3d-realistic-cup-coffee-with-splashing.png" alt="" class = "coffee-splash">
+                </div>
+            </div>
+
+            <div class="ftr-body col-sm-12 col-md-7 col-lg-7 row m-0 p-0">
+
+                <div class="ftr-title col-12">
+                    <img src="/images/New Project 7 [98EE2FB].png" alt="" class = "ftr-img">
+                    <h1 class = "ftr-txt">Sip Of Your Day</h1>
+                    <p class = "ftr-para"> This is a simple coffee webpage to order your drink and start your day.</p>
+
+                </div>
+
+                <div class="ftr-box-1 col-4">
+                    <h3>Explore</h3>
+                    <a href="">HOME</a>
+                    <a href="">ABOUT</a>
+                    <a href="">MENU</a>
+                    <a href="">CONTACT</a>
+                </div>
+
+                <div class="ftr-box-2 col-4">
+                    <h3>Social</h3>
+                    <a href="">FACEBOOK</a>
+                    <a href="">TWITTER</a>
+                    <a href="">INSTAGRAM</a>
+                    <a href="">LINKEDIN</a>
+                </div>
+
+                <div class="ftr-box-3 col-4">
+                    <h3>Support</h3>
+                    <a href="">FAQ</a>
+                    <a href="">HELP CENTER</a>
+                    <a href="">PRIVACY POLICY</a>
+                    <a href="">TERMS OF SERVICE</a>
+                </div>
+            </div>
+
+            <div class="ftr-owner col-12 row m-0 p-0">
+
+                <div class="copyright col-12">
+                        &copy; 2025 Coffee Sip. All rights reserved
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

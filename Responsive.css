@@ -1,0 +1,584 @@
+@media all and (max-width:768px) {
+    
+
+    /* Responsive Nave bar */
+
+   .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color:transparent;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    padding-left: 1rem;
+    padding-top: 14vh;
+    padding-bottom: 1vh;
+    border-radius: 5px;
+    display: none;
+    animation: navSlide .5s ease-in-out;
+   }
+
+   @keyframes navSlide {
+    from{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+   }
+
+
+   /* .nav a::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2rem;
+    background-color: burlywood;
+    border-radius: 8px;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+   } */
+
+   .navlogo{
+    display: block;
+    height: 8rem;
+    width: 8rem;
+    margin-top: -3rem;
+    margin-left: 1rem;
+}
+
+   .nav a{
+    /* font-weight: bolder; */
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+   /* .nav a:hover{
+    color: whitesmoke;
+    background-color: burlywood;
+    border: 2px solid #c49b6e;
+    border-radius: 10px;
+   } */
+
+
+
+   /* nav a{
+    display: none;
+   } */
+
+   .nav.join{
+    background-color: rgba(36, 34, 34, 0.36);
+    box-shadow: 0px 0px 2px .1px black;
+    display: flex;
+   }
+
+   /* nav.show a{
+    display: block;
+   } */
+
+   .responsive-nav{
+    display:block;
+    z-index: 999;
+    position: absolute;
+    top: 3rem;
+    right: 1.5rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+    .hamburger.active .bar:nth-child(2){
+        transform: scale(0);
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    } 
+
+    /* Main Content */
+    /* login pop on leftside */
+    
+
+    .right{
+        position: absolute;
+        background-color: transparent;
+        visibility: hidden;    
+        top: 0;
+        right: 0;
+        z-index: 999;
+    }
+
+    .lgbox{
+        width: 95%;
+    }
+
+    #lgform{
+        gap: 1.5rem;
+    }
+
+    .logoimg2{
+        height: 8rem;
+        width: 8rem;
+        margin-top: -2rem;
+    }
+
+    .inpbox{
+        width: 90%;
+    }
+
+    .inpbox input{
+        font-size: 1rem;
+    }
+
+    .forget{
+        width: 85%;
+    }
+
+    .close{
+        top: 0px;
+        right: 0px;
+    }
+
+    .lgbtn{
+        font-size: 1.2rem;
+
+    }
+
+    .left{
+        background-color: transparent;
+        padding-left: 1.5rem;
+        justify-content: center;
+    }
+
+    .txt1{
+        font-size: 2.9rem;
+    }
+
+    .txt2{
+        font-size: 2.9rem;
+    }
+
+    .txt3{
+        font-size: 1rem;
+    }
+
+    .btn1{
+        font-size: .8rem;
+        padding: .8rem;
+    }
+
+    .btn2{
+        font-size: .8rem;
+        padding: .8rem;
+    }
+
+
+    /* About Page */
+
+    .abtheader{
+        height: 20vh;
+        flex-wrap: wrap;
+        background-color: transparent;
+    }
+
+    .abtleft{
+        background-color:transparent;
+        margin-top: -8vh;
+        height:28vh;
+    }
+
+    .coffee-cup{
+        height: 100%;
+    }
+
+    .abtright{
+        background-color:transparent;
+        height: 40vh;
+    }
+
+    .greets{
+        font-size: 1.9rem;
+    }
+
+    .abtcontent{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: .2rem;
+    }
+
+    .greets{
+        font-size: 2rem;
+    }
+
+    .coffee-sip{
+        font-weight: bolder;
+        font-size: 2rem;
+        color: burlywood;
+    }
+
+    .abtpara{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .greets2{
+        font-size: 1rem;
+    }
+
+    .icons{
+        font-size: 1.5rem;
+    }
+
+    .icons a{
+        padding: .5rem;
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    /* menu */
+
+    .menuheader{
+        background-color: transparent;
+        height: 30vh;
+    }
+
+    .menubody{
+        height: 70vh;
+        background-color: transparent;
+    }
+
+    .cards-wrapper{
+        background-color: transparent;
+        height: 60vh;
+    }
+
+    .price-card{
+        height: 22rem;
+        width: 16rem;
+    }
+
+    .price-img{
+        background-color: transparent;
+        height: 10rem;
+    }
+
+    .coffee-btn{
+        font-size: .9rem;
+    }
+
+
+    /* Contact */
+
+    .contact-person{
+        height: 38rem;
+    }
+
+    .contact-info{
+        background-color: transparent;
+        border-left: none;
+        /* z-index: 1000; */
+    }
+
+    .contactus{
+        font-size: 1.5rem;
+    }
+
+    .contactus2{
+        font-size: 1.5rem;
+    }
+
+    .contactus3{
+        font-size: 1.5rem;
+    }
+
+    .contact-inp-box{
+        width: 100%;
+    }
+
+    .contact-inp{
+        width: 80%;
+    }
+
+    .ct-lg-icons{
+        width: 8rem;
+    }
+
+    .contact-btn{
+        height: 4rem;
+    }
+
+    /* footer */
+
+    /* .footer{
+        height: 70vh;
+    } */
+
+    /* .ftr-header{
+        height: 35%;
+    } */
+
+    .ftr-imgbox{
+        height: 100%;
+        width: 60%;
+    }
+
+    .coffee-splash{
+        height: 100%;
+    }
+
+    .ftr-body{
+        height: 90%;
+    }
+
+    .ftr-img{
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .ftr-title{
+        height: 50%;
+        background-color: transparent;
+    }
+
+    .ftr-txt{
+        font-size: 1.5rem;
+    }
+
+    .ftr-para{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .ftr-box-1{
+        background-color: transparent;
+        height: 40%;
+        padding: .2rem;
+    }
+
+    .ftr-box-1 a{
+        font-size: .7rem;
+    }
+
+    .ftr-box-1 h3{
+        font-size: 1.2rem;
+    }
+
+    .ftr-box-2{
+        height: 40%;
+        padding: .2rem;
+    }
+
+    .ftr-box-2 a{
+        font-size: .7rem;
+    }
+
+    .ftr-box-2 h3{
+        font-size: 1.2rem;
+    }
+
+    .ftr-box-3{
+        height: 40%;
+        padding: .2rem;
+    }
+
+    .ftr-box-3 a{
+        font-size: .7rem;
+        text-align: center;
+    }
+
+    .ftr-box-3 h3{
+        font-size: 1.2rem;
+    }
+
+    .ftr-owner{
+        background-color: transparent;
+        height: 10%;
+    }
+
+    .copyright{
+        font-size: .9rem;        
+    }
+
+    .terms a{
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+
+}
+
+@media all and (min-width:768px){
+
+    /* Home page */
+    
+
+    .btn1{
+        padding: .5rem;
+    }
+
+    .right{
+        background-color: transparent;
+    }
+
+    .lgbox{
+        width: 95%;
+    }
+
+    /* About Page */
+
+    .coffee-cup{
+        height: 32rem;
+    }
+
+    .greets{
+        font-size: 2.5rem;
+    }
+
+    .coffee-sip{
+        font-weight: bolder;
+        font-size: 2.5rem;
+        color: burlywood;
+    }
+
+    .abtpara{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .greets2{
+        font-size: 1.5rem;
+    }
+
+    .icons{
+        font-size: 2rem;
+    }
+
+    .icons a{
+        padding: .5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .ct-lg-icons{
+        width: 30%;
+    }
+
+    .contact-person{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* footer */
+
+    .ftr-header{
+        background-color: transparent;
+    }
+
+    .ftr-imgbox{
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .coffee-splash{
+        height: 23rem;
+        
+    }
+
+    .ftr-txt{
+        font-size: 1.8rem;
+    }
+
+    .ftr-para{
+        font-size: 1rem;
+    }
+
+    .ftr-box-1 h3{
+        font-size: 1.4rem;
+    }
+
+    .ftr-box-2 h3{
+        font-size: 1.4rem;
+    }
+
+    .ftr-box-3 h3{
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (min-width:992px){
+
+    .lgbox{
+        width: 75%;
+    }
+
+
+    .coffee-cup{
+        height: 32rem;
+    }
+
+    .greets{
+        font-size: 3rem;
+    }
+
+    .coffee-sip{
+        font-weight: bolder;
+        font-size: 3rem;
+        color: burlywood;
+    }
+
+    .abtpara{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .greets2{
+        font-size: 1.5rem;
+    }
+
+    .contact-person{
+        height: 100%;
+    }
+
+    /* footer */
+
+    .ftr-img{
+        height: 10rem;
+        width: 10rem;
+    }
+    
+    .ftr-txt{
+        font-family: 1.5rem;
+    }
+    
+}
+
+@media all and (min-width:1200px){
+    .lgbox{
+        width: 60%;
+    }
+
+    .contact-person{
+        height: 100%;
+        width: 70%;
+    }
+
+    /* footer */
+
+    .ftr-title .ftr-txt{
+        font-family: 1.8rem;
+    }
+}
+
+
