@@ -363,20 +363,21 @@
     animation-range: entry 30% cover 35%;
 }
 
+
 .ftr-box-1 a{
     animation: input1-animation 0.5s linear forwards;
     animation-timeline: view();
-    animation-range: entry 30% cover 35%;
+    animation-range: entry 0% cover 15%;
 }
 
 .ftr-box-2 a{
     animation: textarea-animation 0.5s linear forwards;
     animation-timeline: view();
-    animation-range: entry 30% cover 35%;
+    animation-range: entry 0% cover 15%;
 }
 
 .ftr-box-3 a{
     animation: input2-animation 0.5s linear forwards;
     animation-timeline: view();
-    animation-range: entry 30% cover 35%;
+    animation-range: entry 0% cover 15%;
 }

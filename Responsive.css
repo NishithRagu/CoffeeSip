@@ -360,6 +360,11 @@
         text-align: center;
     }
 
+    .ftr-body{
+        background-color: transparent;
+        padding: .3rem;
+    }
+
     .ftr-box-1{
         background-color: transparent;
         height: 40%;
@@ -390,6 +395,7 @@
     .ftr-box-3{
         height: 40%;
         padding: .2rem;
+        background-color: transparent;
     }
 
     .ftr-box-3 a{

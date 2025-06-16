@@ -903,6 +903,7 @@ input{
     color: whitesmoke;
     font-family: KeepCalm;
     transition: all 0.3s ease;
+    opacity: 0;
 }
 
 .ftr-box-1 a:hover{
@@ -929,6 +930,7 @@ input{
     color: whitesmoke;
     font-family: KeepCalm;
     transition: all 0.3s ease;
+    opacity: 0;
 }
 
 .ftr-box-2 a:hover{
@@ -955,6 +957,7 @@ input{
     color: whitesmoke;
     font-family: KeepCalm;
     transition: all 0.3s ease;
+    opacity: 0;
 }
 
 .ftr-box-3 a:hover{
