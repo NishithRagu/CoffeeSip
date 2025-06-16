@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: aBlackLives;
-    src: url("/fonts/aBlackLives.otf");
+    src: url("https://nishithragu.github.io/CoffeeSip//fonts/aBlackLives.otf");
 }
 
 @font-face {
     font-family: Agatho;
-    src: url("/fonts/Agatho_\ Light.otf");
+    src: url("https://nishithragu.github.io/CoffeeSip//fonts/Agatho_\ Light.otf");
 }
 
 @font-face {
     font-family: geometos;
-    src: url(/fonts/Geometos.ttf);
+    src: url(https://nishithragu.github.io/CoffeeSip//fonts/Geometos.ttf);
 }
 
 
 .root{
-    background: url(/images/IMG_20250520_224219.jpg);
+    background: url(https://nishithragu.github.io/CoffeeSip//images/IMG_20250520_224219.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
